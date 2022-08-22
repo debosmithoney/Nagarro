@@ -2,7 +2,6 @@ var counter = 1;
 
 document.getElementById("left-arrow").addEventListener("click", function () {
   counter--;
-  document.getElementById("radio" + counter).checked = true;
   if (counter < 1) {
     counter = 4;
   }
@@ -11,10 +10,10 @@ document.getElementById("left-arrow").addEventListener("click", function () {
       " " +
       document.getElementById("radio" + counter).checked
   );
+  document.getElementById("radio" + counter).checked = true;
 });
 document.getElementById("right-arrow").addEventListener("click", function () {
   counter++;
-  document.getElementById("radio" + counter).checked = true;
   if (counter > 4) {
     counter = 1;
   }
@@ -25,4 +24,5 @@ document.getElementById("right-arrow").addEventListener("click", function () {
       " " +
       document.getElementById("radio" + counter).checked
   );
+  document.getElementById("radio" + counter).checked = true;
 });

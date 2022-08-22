@@ -31,7 +31,7 @@ fetchBtn.addEventListener("click", () => {
         div.setAttribute("class", "match");
         div.innerHTML = `
       <div
-        class="card w-96 border-2 p-8 m-6 grid grid-rows-1 gap-1 place-items-center drop-shadow-md bg-white rounded-xl"
+        class="card w-96 border-2 p-8 m-6 grid grid-rows-1 gap-1 place-items-center transition-all duration-200 hover:scale-105 drop-shadow-md bg-white rounded-xl"
       >
         <h2 class="col-span-2 mb-4">${status}</h2>
         <img
