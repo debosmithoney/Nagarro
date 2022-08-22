@@ -23,7 +23,7 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "Bibek Chakraborty",
+  "author": "Debosmit Choudhury",
   "license": "ISC",
   "description": ""
 }
