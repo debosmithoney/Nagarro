@@ -81,7 +81,7 @@ ul {
 }
 
 .nav-links li:hover {
-    background-color: rgba(151, 151, 151, 0.25);
+  background-color: rgba(151, 151, 151, 0.25);
 }
 
 .main {
@@ -342,11 +342,11 @@ textarea::placeholder {
   margin: 3rem auto 0;
 }
 
-.no-result{
-    margin: 3rem auto 0;
-    color: var(--secondary-text);
-    font-size: 1rem;
-    text-align: center;
+.no-result {
+  margin: 3rem auto 0;
+  color: var(--secondary-text);
+  font-size: 1rem;
+  text-align: center;
 }
 
 @keyframes spin {
